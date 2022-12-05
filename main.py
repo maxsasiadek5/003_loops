@@ -9,7 +9,7 @@ Program wypisze wówczas na ekran komunikat ile użytkownik podał liczb parzyst
 
 def main():
     """
-    Funkcja main
+    Funkcja main wywołuje wszystkie pozostałe funkcje.
 
     :return:
     """
@@ -20,7 +20,7 @@ def main():
 def get_number_list():
     """
     Ta funkcja ma za zadanie przyjąć kolejno wartości od użytkownika do momentu wpisania 0. Wartości mają być dodane do
-    listy.Wynikiem działania funkcji jest lista wartości wprowadzonych przez użytkownika.
+    listy. Wynikiem działania funkcji jest lista wartości wprowadzonych przez użytkownika.
     :return:
     """
     user_list = []
